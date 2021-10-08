@@ -1,0 +1,3 @@
+Project made with use of Hyperskill website introducing to Spring Boot REST API.
+Project represents cinema room. There is no database connected to the project, so after restarting program current settings are lost.
+Cinema is represented with specified number of rows and columns of seats. User through REST API can check number of seats with their prices. When seat is reserved, user is granted with individual token number which can be later used to return reserved place. Seat can only be booked only if it wasn't booked earlier. Admin through hard coded "password" can look up statistics about cinema including amount of sold tickets, current income and number of still available seats.
